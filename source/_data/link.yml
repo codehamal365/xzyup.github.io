@@ -1,0 +1,171 @@
+#- class_name: 友情鏈接
+#  class_desc: 那些人，那些事
+#  link_list:
+#    - name: Hexo
+#      link: https://hexo.io/zh-tw/
+#      avatar: https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg
+#      descr: 快速、簡單且強大的網誌框架
+
+- class_name: 前沿技术
+  class_desc: 那些人，那些事
+  link_list:
+    - name: 美团前沿技术
+      link: https://tech.meituan.com/
+      avatar: /img/美团.png
+      descr: 了解美团相关前沿技术
+
+
+- class_name: 工具
+  link_list:
+    - name: Draw IO
+      link: https://www.diagrams.net/
+      descr: ''
+    - name: 菜鸟教程
+      link: https://www.runoob.com/
+      descr: ''
+    - name: Idea Theme
+      link: https://plugins.jetbrains.com/search?tags=Theme
+      descr: ''
+    - name: Typora picGo
+      link: https://juejin.cn/post/6847902225881104397
+      descr: ''
+    - name: 内网穿透
+      link: https://natapp.cn/
+      descr: ''
+    - name: MacWK 软件
+      link: https://www.macwk.com/
+      descr: ''
+    - name: Ip Address
+      link: https://www.ipaddress.com/
+      descr: ''
+    - name: MacWK 软件
+      link: https://www.macwk.com/
+      descr: ''
+    - name: MVN Repository
+      link: https://mvnrepository.com/
+      descr: ''
+    - name: Jwt Token解析
+      link: https://jwt.io/
+      descr: ''
+    - name: font icons
+      link: https://fontawesome.com/
+      descr: ''
+    - name: icon 素材库
+      link: https://www.iconfont.cn/
+      descr: ''
+    - name: 梯子
+      link: https://shadowflys.us/user
+      descr: ''
+
+
+- class_name: JAVA
+  link_list:
+    - name: JAVA全栈技术手册
+      link: https://pdai.tech/
+      descr: ''
+    - name: Java IO模型
+      link: https://youthlql.gitee.io/javayouth/#/docs/netty/Netty%E5%85%A5%E9%97%A8-%E7%AC%AC%E4%B8%80%E8%AF%9D?id=java-nio%e7%bc%96%e7%a8%8b
+      descr: ''
+    - name: Mall商城 Github
+      link: https://github.com/macrozheng/mall-learning
+      descr: ''
+    - name: Guava 教程
+      link: https://www.yiibai.com/guava/guava_charmatcher.html
+      descr: ''
+    - name: Java设计模式
+      link: https://www.journaldev.com/1827/java-design-patterns-example-tutorial
+      descr: ''
+    - name: Kan cloud 看云 - SpringBoot
+      link: https://www.kancloud.cn/explore
+      descr: ''
+    - name: KeyCloak 文档
+      link: https://www.keycloak.org/docs/latest/authorization_services/index.html#_service_rpt_overview
+      descr: ''
+    - name: RabbitMQ 入门
+      link: https://blog.csdn.net/kavito/article/details/91403659
+      descr: ''
+
+- class_name: Go
+  link_list:
+    - name: 地鼠文档
+      link: https://www.topgoer.cn/
+      descr: ''
+    - name: Go 高级编程
+      link: https://chai2010.gitbooks.io/advanced-go-programming-book/content/
+      descr: ''
+
+
+- class_name: 文档
+  link_list:
+    - name: NestJS 文档
+      link: https://nestjs.bootcss.com/
+      descr: ''
+    - name: Vuetify 文档
+      link: https://vuetifyjs.com/en/
+      descr: ''
+    - name: CDNJS 搜索
+      link: https://cdnjs.com/libraries/vuetify/2.6.3
+      descr: ''
+    - name: Flutter 文档
+      link: https://docs.flutter.dev/get-started/install
+      descr: ''
+    - name: Openresty最佳实践
+      link: https://moonbingbing.gitbooks.io/openresty-best-practices/content/openresty/helloworld.html
+      descr: ''
+    - name: Nginx 官方文档
+      link: http://nginx.org/en/docs/
+      descr: ''
+    - name: Nginx 运维手册
+      link: http://www.sunrisenan.com/docs/nginx/nginx-1b0ic2kuthbau
+      descr: ''
+    - name: Nginx 极简教程
+      link: https://github.com/dunwu/nginx-tutorial
+      descr: ''
+    - name: linux教程
+      link: http://c.biancheng.net/linux_tutorial/text_processing/
+      descr: ''
+    - name: Docker Hub
+      link: https://hub.docker.com/
+      descr: ''
+    - name: Docker 从入门到实践
+      link: https://yeasy.gitbook.io/docker_practice/
+      descr: ''
+    - name: Docker到Kubernetes进阶
+      link: https://www.qikqiak.com/k8s-book/
+      descr: ''
+    - name: Alpine linux lib
+      link: https://pkgs.alpinelinux.org/packages?name=gettext&branch=v3.14
+      descr: ''
+    - name: GitBook简明教程
+      link: https://www.chengweiyang.cn/gitbook/gitbook.com/newbook.html
+      descr: ''
+    - name: Hexo docs
+      link: https://hexo.io/docs/
+      descr: ''
+
+
+- class_name: 面试
+  link_list:
+    - name: 常用网址、面试合集
+      link: https://istio.tech/about/
+      descr: ''
+    - name: 常见技术手册
+      link: https://book.altitude.xin/home/#/chapter/e0bdafd906cb5c53ec1eb77b65b6a764
+      descr: ''
+
+
+- class_name: 视频网站
+  class_desc: 值得推薦的網站
+  link_list:
+    - name: Youtube
+      link: https://www.youtube.com/
+      avatar: https://i.loli.net/2020/05/14/9ZkGg8v3azHJfM1.png
+      descr: 視頻網站
+    - name: Weibo
+      link: https://www.weibo.com/
+      avatar: https://i.loli.net/2020/05/14/TLJBum386vcnI1P.png
+      descr: 中國最大社交分享平臺
+    - name: Twitter
+      link: https://twitter.com/
+      avatar: https://i.loli.net/2020/05/14/5VyHPQqR6LWF39a.png
+      descr: 社交分享平臺

@@ -1,0 +1,9 @@
+/.github/
+/.deploy_git/
+/.github/
+/node_modules/
+/public/
+/.idea/.gitignore
+/.idea/blog.iml
+/.idea/modules.xml
+/.idea/vcs.xml
