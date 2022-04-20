@@ -1,8 +1,9 @@
 ---
+uuid: bbaed2e1-c0ab-11ec-92a1-7557b2313227
 title: mac使用brew管理后台服务
 tags:
   - mac
-abbrlink: 56df
+abbrlink: 467b8595
 date: 2022-04-10 18:06:55
 ---
 
@@ -52,3 +53,4 @@ mac使用`launchctl`命令加载开机自动运行的服务，那么`launchctl`�
 > 12823	0	homebrew.mxcl.redis
 
 由此，我们可以猜测`brew services`是`launchctl`的一个子集。
+的一个子集。

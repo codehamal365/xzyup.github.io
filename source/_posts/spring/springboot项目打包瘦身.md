@@ -1,8 +1,10 @@
 ---
+uuid: bbaf481a-c0ab-11ec-92a1-7557b2313227
 title: springboot项目瘦身
+categories: Java
 tags:
   - springBoot
-abbrlink: 84b3
+abbrlink: '9156e972'
 ---
 
 
@@ -86,6 +88,10 @@ java -Dthin.dryrun=true -Dthin.root=. -jar awesome-app.jar
 ### 小结
 
 利用`spring-boot-thin-launcher`可以给Spring Boot应用瘦身。其原理是记录app依赖的jar包，在首次运行时先下载依赖项并缓存到本地。
+
+---
+
+��到本地。
 
 ---
 

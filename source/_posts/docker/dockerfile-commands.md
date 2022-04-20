@@ -1,8 +1,10 @@
 ---
+uuid: bbaef9f5-c0ab-11ec-92a1-7557b2313227
 title: Dockerfile常用命令
 tags:
   - Dockerfile
-abbrlink: d94d
+categories: Docker
+abbrlink: 1cedfdb9
 date: 2022-03-19 15:07:59
 ---
 
@@ -29,6 +31,9 @@ date: 2022-03-19 15:07:59
 
 ### docker compose实践
 > https://www.cnblogs.com/aaronlinv/p/15270704.html
+
+
+---15270704.html
 
 
 ---

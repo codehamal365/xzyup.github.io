@@ -1,8 +1,10 @@
 ---
+uuid: bbaef9fb-c0ab-11ec-92a1-7557b2313227
 title: Guava CaseFormat
+categories: Java
 tags:
   - guava
-abbrlink: f29a
+abbrlink: 995f4974
 ---
 
 ## 枚举常量
@@ -37,6 +39,9 @@ System.out.println(CaseFormat.LOWER_UNDERSCORE.to(CaseFormat.LOWER_CAMEL, "test_
 System.out.println(CaseFormat.LOWER_UNDERSCORE.to(CaseFormat.UPPER_CAMEL, "test_world"));
 // TEST_WORLD
 System.out.println(CaseFormat.LOWER_UNDERSCORE.to(CaseFormat.UPPER_UNDERSCORE, "test_world"));
+```
+
+---_world"));
 ```
 
 ---

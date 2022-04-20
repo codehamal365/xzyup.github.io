@@ -1,8 +1,10 @@
 ---
+uuid: bbaf6f28-c0ab-11ec-92a1-7557b2313227
 title: spring-@Value
+categories: Java
 tags:
   - spring
-abbrlink: 5ca8
+abbrlink: 5295323d
 ---
 
 ## 前言 
@@ -748,4 +750,4 @@ private double randomValue;
 
 1. @Value的原理
 2. @Value动态刷新属性值的原因
-3. @ConfigurationProperties注解的用法，它也非常强大。 
+3. @ConfigurationProperties注解的用法，它也非常强大。 也非常强大。 

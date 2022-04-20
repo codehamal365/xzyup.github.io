@@ -1,8 +1,10 @@
 ---
+uuid: bbaf6f25-c0ab-11ec-92a1-7557b2313227
 title: Guava Multiset
+categories: Java
 tags:
   - guava
-abbrlink: fb69
+abbrlink: 6b775b82
 ---
 
 # Guava Multiset接口
@@ -105,6 +107,11 @@ public class GuavaTester {
       multiset.remove("b",2);
       //print the occurrence of an element
       System.out.println("Occurence of 'b' : "+multiset.count("b"));
+   }	
+}
+```
+
+---);
    }	
 }
 ```

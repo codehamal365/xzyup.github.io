@@ -1,8 +1,10 @@
 ---
+uuid: bbaf210a-c0ab-11ec-92a1-7557b2313227
 title: SPI机制
+categories: Java
 tags:
   - spi
-abbrlink: '4820'
+abbrlink: f13620b0
 ---
 
 # Java中SPI机制
@@ -288,5 +290,7 @@ private static final String PREFIX = "META-INF/services/";
 
   (3) 把实例化后的类缓存到providers对象中，(LinkedHashMap<String,S>类型）
    然后返回实例对象。
+
+---��例对象。
 
 ---

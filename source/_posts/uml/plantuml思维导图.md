@@ -1,8 +1,10 @@
 ---
+uuid: bbaf6f20-c0ab-11ec-92a1-7557b2313227
 title: plantuml 思维导图
+categories: Uml
 tags:
   - plantuml
-abbrlink: 5efa
+abbrlink: d9642643
 ---
 
 
@@ -463,5 +465,7 @@ arrow {
 ~~~
 
 ![image-20211028142657150](https://raw.githubusercontent.com/xzyup/image/master/202203191703508.png)
+
+---191703508.png)
 
 ---

@@ -1,8 +1,10 @@
 ---
+uuid: bbaf6f26-c0ab-11ec-92a1-7557b2313227
 title: Guava Table
+categories: Java
 tags:
   - guava
-abbrlink: 716a
+abbrlink: 7e14eb94
 ---
 
 # Guava Table接口
@@ -105,6 +107,11 @@ public class GuavaTester {
       for(Map.Entry<String, String> entry : EmployerMap.entrySet()){
          System.out.println("Employer: " + entry.getKey() + ", Name: " + entry.getValue());
       }		
+   }	
+}
+```
+
+---		
    }	
 }
 ```

@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2100-c0ab-11ec-92a1-7557b2313227
 title: Guava Objects
+categories: Java
 tags:
   - guava
-abbrlink: f21
+abbrlink: 4bcb4612
 ---
 
 # Objects
@@ -87,5 +89,7 @@ For this purpose, Guava provides [`ComparisonChain`](https://guava.dev/releases/
 ```
 
 This fluent idiom is much more readable, less prone to accidental typos, and smart enough not to do more work than it must. Additional comparison utilities can be found in Guava's "fluent Comparator" class [`Ordering`](https://guava.dev/releases/snapshot/api/docs/com/google/common/collect/Ordering.html), explained [here](https://github.com/google/guava/wiki/OrderingExplained).
+
+---ingExplained).
 
 ---

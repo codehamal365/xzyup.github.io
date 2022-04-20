@@ -1,8 +1,10 @@
 ---
+uuid: bbaed2e9-c0ab-11ec-92a1-7557b2313227
 title: 基于openapi的yaml文件快速生成代码
+categories: Tool
 tags:
   - openapi
-abbrlink: '2063'
+abbrlink: 543da2f4
 date: 2022-03-29 22:08:29
 ---
 # 写在前面
@@ -101,4 +103,4 @@ date: 2022-03-29 22:08:29
 
 
 ## 执行 mvn clean package
-执行成功后,切换到 /target/generated-sources/openapi/src/main/java/org/example   会看到生成的model和api接口。
+执行成功后,切换到 /target/generated-sources/openapi/src/main/java/org/example   会看到生成的model和api接口。odel和api接口。

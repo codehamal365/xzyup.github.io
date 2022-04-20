@@ -1,8 +1,10 @@
 ---
+uuid: bbaed2e7-c0ab-11ec-92a1-7557b2313227
 title: swagger-editor生成api文件
+categories: Tool
 tags:
   - swagger
-abbrlink: 346a
+abbrlink: 3172e0c6
 date: 2022-04-15 23:34:17
 ---
 
@@ -59,4 +61,6 @@ yaml文件呢？今天的主角`swagger-editor`就能很方便的帮我们完成
 - `https://github.com/swagger-api/swagger-parser`
 
 大致应该是基于这两个项目做的。有兴趣的朋友可以参考下。
+
+��以参考下。
 

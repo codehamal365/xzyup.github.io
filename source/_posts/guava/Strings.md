@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2107-c0ab-11ec-92a1-7557b2313227
 title: Guava Strings
+categories: Java
 tags:
   - guava
-abbrlink: '9941'
+abbrlink: 4d4be014
 ---
 
 # Strings
@@ -22,5 +24,7 @@ abbrlink: '9941'
 | 7    | public static String commonPrefix(CharSequence a, CharSequence b) |
 | 8    | public static String commonSuffix(CharSequence a, CharSequence b) |
 | 9    | public static String lenientFormat(@Nullable String template, @Nullable Object @Nullable ... args) |
+
+---le ... args) |
 
 ---

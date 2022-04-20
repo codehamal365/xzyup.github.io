@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2104-c0ab-11ec-92a1-7557b2313227
 title: Guava Predicates
+categories: Java
 tags:
   - guava
-abbrlink: 61a2
+abbrlink: 447154f8
 ---
 
 ## 类方法
@@ -26,5 +28,7 @@ abbrlink: 61a2
 | 15   | public static <A, B> Predicate<A> compose(Predicate<B> predicate, Function<A, ? extends B> function) |
 | 16   | public static Predicate<CharSequence> containsPattern(String pattern) |
 | 17   | public static Predicate<CharSequence> contains(Pattern pattern) |
+
+---ern pattern) |
 
 ---

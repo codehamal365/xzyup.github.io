@@ -1,8 +1,10 @@
 ---
+uuid: bbaf6f21-c0ab-11ec-92a1-7557b2313227
 title: plantuml 活动图
+categories: Uml
 tags:
   - plantuml
-abbrlink: ae2c
+abbrlink: 9a3b4b45
 ---
 
 
@@ -440,5 +442,7 @@ stop
 ~~~
 
 ![image-20211028111940853](https://raw.githubusercontent.com/xzyup/image/master/202203191658965.png)
+
+---191658965.png)
 
 ---

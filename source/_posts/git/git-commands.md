@@ -1,7 +1,9 @@
 ---
+uuid: bbaef9f9-c0ab-11ec-92a1-7557b2313227
 title: Git命令清单
 tags: Git
-abbrlink: de41
+categories: Git
+abbrlink: a9a6c8b0
 date: 2022-03-19 14:26:20
 ---
 
@@ -308,6 +310,15 @@ $ git stash pop
 ~~~bash
 # 生成一个可供发布的压缩包
 $ git archive
+~~~
+
+---
+
+
+
+
+
+hive
 ~~~
 
 ---

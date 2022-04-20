@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2105-c0ab-11ec-92a1-7557b2313227
 title: Guava Range
+categories: Java
 tags:
   - guava
-abbrlink: '4225'
+abbrlink: 1bba3e9b
 ---
 
 Range 表示一个间隔或一个序列。它被用于获取一组数字/串在一个特定范围之内。
@@ -123,6 +125,11 @@ public class GuavaTester {
          System.out.print(grade +" ");
       }
       System.out.println("]");
+   }
+}
+```
+
+---");
    }
 }
 ```

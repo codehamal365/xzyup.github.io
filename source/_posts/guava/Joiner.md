@@ -1,8 +1,10 @@
 ---
+uuid: bbaef9fe-c0ab-11ec-92a1-7557b2313227
 title: Guava Joiner
+categories: Java
 tags:
   - guava
-abbrlink: 91b8
+abbrlink: c97c32ce
 ---
 
 # Joiner常见用法
@@ -68,6 +70,10 @@ void testJoinerAppender() {
   StringBuilder builder = new StringBuilder();
   StringBuilder join = Joiner.on("#").appendTo(builder, list);
   assertSame(builder, join);
+}
+~~~
+
+---, join);
 }
 ~~~
 

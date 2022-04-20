@@ -1,8 +1,10 @@
 ---
+uuid: bbaf210e-c0ab-11ec-92a1-7557b2313227
 title: linux bin目录说明
+categories: Linux
 tags:
   - linux
-abbrlink: '8576'
+abbrlink: cccfdef8
 ---
 
 ## **/bin,/sbin,/usr/sbin,/usr/bin 目录**
@@ -34,5 +36,7 @@ abbrlink: '8576'
   首先就要考虑root 的$PATH里是否已经包含了这些环境变量。
   可以查看PATH，如果是：PATH=$PATH:$HOME/bin则需要添加成如下：
   PATH=$PATH:$HOME/bin:/sbin:/usr/bin:/usr/sbin
+
+---/bin:/usr/sbin
 
 ---

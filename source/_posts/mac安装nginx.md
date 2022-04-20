@@ -1,8 +1,10 @@
 ---
+uuid: bbaed2e3-c0ab-11ec-92a1-7557b2313227
 title: mac 安装nginx
+categories: MiddleWare
 tags:
   - mac
-abbrlink: 2c6b
+abbrlink: f2628ffe
 ---
 
 # mac安装nginx
@@ -172,4 +174,6 @@ $ nginx -s quit
 
 # 重启：
 $ nginx -s reopen	
+```
+inx -s reopen	
 ```

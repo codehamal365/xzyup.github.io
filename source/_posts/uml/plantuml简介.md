@@ -1,8 +1,10 @@
 ---
+uuid: bbaf6f22-c0ab-11ec-92a1-7557b2313227
 title: plantuml 简介
+categories: Uml
 tags:
   - plantuml
-abbrlink: b629
+abbrlink: '245017e5'
 ---
 
 
@@ -288,6 +290,11 @@ Container(containerAlias, "Container", "这是Container")
 Person(personAlias, "Person", "这可以看作是组件(Component)")
 
 Rel(personAlias, containerAlias, "Label", "设置关联关系")
+@enduml
+~~~
+
+---
+�")
 @enduml
 ~~~
 

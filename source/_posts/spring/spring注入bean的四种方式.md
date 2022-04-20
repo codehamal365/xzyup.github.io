@@ -1,8 +1,10 @@
 ---
+uuid: bbaf481b-c0ab-11ec-92a1-7557b2313227
 title: spring bean 注入的四种方式
+categories: Java
 tags:
   - springBoot
-abbrlink: '6496'
+abbrlink: 7d86e9f
 ---
 
 ## spring容器注入组件的四种方式
@@ -354,6 +356,12 @@ public class SpringBootLearningApplication {
         for (int i = 0; i < beanDefinitionNames.length; i++) {
             System.out.println("匹配的类"+beanDefinitionNames[i]);
         }
+    }
+}
+~~~
+
+---
+
     }
 }
 ~~~

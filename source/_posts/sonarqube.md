@@ -1,8 +1,10 @@
 ---
+uuid: bbaed2e6-c0ab-11ec-92a1-7557b2313227
 title: sonarqube简单使用
+categories: CodeCheck
 tags:
   - sonarqube
-abbrlink: 8f28
+abbrlink: '1646358'
 ---
 
 ### sonarqube
@@ -60,3 +62,4 @@ abbrlink: 8f28
    - sonarqube与jenkins集合
    - Sonarqube max 开机自启动设置
    - Sonar.scanner 相关配置学习
+ 相关配置学习

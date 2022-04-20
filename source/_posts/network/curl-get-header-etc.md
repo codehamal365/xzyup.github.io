@@ -1,8 +1,10 @@
 ---
+uuid: bbaf4813-c0ab-11ec-92a1-7557b2313227
 title: curl get
+categories: Linux
 tags:
   - curl
-abbrlink: '4969'
+abbrlink: 3d76e967
 ---
 
 # GET Request
@@ -106,6 +108,9 @@ In this recipe, we add an empty header to a curl request. We pass `Puppies;` (wi
 
 ~~~bash
 curl -s --request POST 'https://$DOMAIN/auth/realms/main/protocol/openid-connect/token' --header 'Content-Type: application/x-www-form-urlencoded' --data-urlencode 'grant_type=client_credentials' --data-urlencode 'client_id=test' | jq -r .access_token)
+~~~
+
+---ess_token)
 ~~~
 
 ---

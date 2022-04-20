@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2101-c0ab-11ec-92a1-7557b2313227
 title: Guava Optional
+categories: Java
 tags:
   - guava
-abbrlink: bcc0
+abbrlink: 4a0a9230
 ---
 
 
@@ -84,6 +86,11 @@ public class GuavaTester {
       Integer value2 = b.get();
 
       return value1 + value2;
+   }	
+}
+```
+
+---2;
    }	
 }
 ```

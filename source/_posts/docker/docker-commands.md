@@ -1,7 +1,9 @@
 ---
+uuid: bbaef9f4-c0ab-11ec-92a1-7557b2313227
 title: Docker 命令大全
 tags: Docker
-abbrlink: '9755'
+categories: Docker
+abbrlink: 2bb85992
 date: 2022-03-19 15:03:50
 ---
 
@@ -63,6 +65,9 @@ cnblog最佳实践：
 
 - [info](https://www.runoob.com/docker/docker-info-command.html)
 - [version](https://www.runoob.com/docker/docker-version-command.html)
+
+
+---command.html)
 
 
 ---

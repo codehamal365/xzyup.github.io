@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2108-c0ab-11ec-92a1-7557b2313227
 title: Guava Suppliers
+categories: Java
 tags:
   - guava
-abbrlink: 96ef
+abbrlink: e620e81e
 ---
 
 ## 类方法
@@ -15,5 +17,7 @@ abbrlink: 96ef
 | 4    | static <T> Supplier<T> ofInstance(@Nullable T instance)      |
 | 5    | static <T> Supplier<T> synchronizedSupplier(Supplier<T> delegate) |
 | 6    | static <T> Function<Supplier<T>, T> supplierFunction()       |
+
+---tion()       |
 
 ---

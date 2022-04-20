@@ -1,8 +1,10 @@
 ---
+uuid: bbaf210f-c0ab-11ec-92a1-7557b2313227
 title: linux scp
+categories: Linux
 tags:
   - linux
-abbrlink: e6cc
+abbrlink: 326eed25
 ---
 
 在终端里面输入命令【sudo su】，然后输入当前用户的用户密码，就可以获取临时的root权限
@@ -16,6 +18,9 @@ scp /home/space/music/1.mp3 root@www.runoob.com:/home/root/others/music
 scp /home/space/music/1.mp3 root@www.runoob.com:/home/root/others/music/001.mp3 
 scp /home/space/music/1.mp3 www.runoob.com:/home/root/others/music 
 scp /home/space/music/1.mp3 www.runoob.com:/home/root/others/music/001.mp3 
+```
+
+---c/001.mp3 
 ```
 
 ---

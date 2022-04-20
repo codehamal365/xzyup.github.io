@@ -1,8 +1,10 @@
 ---
+uuid: bbaf210b-c0ab-11ec-92a1-7557b2313227
 title: SPI之autoservice
+categories: Java
 tags:
   - spi
-abbrlink: '4871'
+abbrlink: da2c766e
 ---
 
 
@@ -124,6 +126,10 @@ public @interface AutoService {
 
 
 总的说来AutoService实现还是很简单的，利用Annotation Processor机制为各个SPI服务以及Annotation Processor生成META-INF/services文件下的服务文件，但是确实是理解Annotation Processor机制的比较好的入门方式。目前还没有涉及到代码的生成，接下来的章节就将看看如何在注解处理器中生成代码。
+
+---
+
+成代码。
 
 ---
 

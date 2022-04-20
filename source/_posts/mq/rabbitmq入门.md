@@ -1,8 +1,10 @@
 ---
+uuid: bbaf6f29-c0ab-11ec-92a1-7557b2313227
 title: rabbitmq 入门
+categories: MiddleWare
 tags:
   - rabbitmq
-abbrlink: a7ae
+abbrlink: 114958f5
 ---
 
 ## 1 MQ引言
@@ -1314,5 +1316,8 @@ Correlation id 关联标识，客户端可能会发送多个请求给服务器�
 ![img](https://raw.githubusercontent.com/xzyup/image/master/202203191632941.png)
 消息持久化
 ![img](https://raw.githubusercontent.com/xzyup/image/master/202203191632365.png)
+
+---
+91632365.png)
 
 ---

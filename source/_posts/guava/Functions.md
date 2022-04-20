@@ -1,8 +1,10 @@
 ---
+uuid: bbaef9fd-c0ab-11ec-92a1-7557b2313227
 title: Guava Functions
+categories: Java
 tags:
   - guava
-abbrlink: '64e9'
+abbrlink: 9a47c4e
 ---
 
 
@@ -20,5 +22,8 @@ abbrlink: '64e9'
 | 6    | static <T> Function<T, Boolean> forPredicate(Predicate<T> predicate) ，输入值是，返回值是bool值 |
 | 7    | static <E> Function<Object, E> constant(@Nullable E value)  返回常量值 |
 | 8    | static <T> Function<Object, T> forSupplier(Supplier<T> supplier) |
+
+---
+ supplier) |
 
 ---

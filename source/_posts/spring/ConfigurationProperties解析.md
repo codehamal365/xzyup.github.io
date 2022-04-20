@@ -1,8 +1,10 @@
 ---
+uuid: bbaf4816-c0ab-11ec-92a1-7557b2313227
 title: configurationProperties解析
+categories: Java
 tags:
   - springBoot
-abbrlink: b307
+abbrlink: 1fdc0995
 ---
 
 spring boot configuration properties解析
@@ -352,5 +354,7 @@ private List<Validator> getValidators(Bindable<?> target) {
 
   - 以上实例中，实体类对应的属性配置在application.yaml,那能不能从其他自定义的yaml中配置或者从配置中心获取呢？
   - 配置的参数如何转换，例如时间，日期格式等等。
+
+---��式等等。
 
 ---

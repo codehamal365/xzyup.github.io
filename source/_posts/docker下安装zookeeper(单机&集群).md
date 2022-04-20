@@ -1,9 +1,11 @@
 ---
+uuid: bbaf9630-c0ab-11ec-92a1-7557b2313227
 title: docker安装zookeeper
+categories: Docker
 tags:
   - docker
   - zookeeper
-abbrlink: c5fb
+abbrlink: 9b20e9d
 ---
 
 ## docker下安装zookeeper
@@ -995,6 +997,9 @@ Reference:
 > https://www.cnblogs.com/LUA123/p/11428113.html
 >
 > https://www.runoob.com/w3cnote/zookeeper-linux-cluster.html
+
+
+---cluster.html
 
 
 ---

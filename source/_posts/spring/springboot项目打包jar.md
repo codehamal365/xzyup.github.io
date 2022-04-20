@@ -1,8 +1,10 @@
 ---
+uuid: bbaf4819-c0ab-11ec-92a1-7557b2313227
 title: springboot项目打包
+categories: Java
 tags:
   - springBoot
-abbrlink: e547
+abbrlink: 9d6d839f
 ---
 
 # springboot项目打包
@@ -258,6 +260,9 @@ integration-test阶段中的Spring Boot Maven plugin的start/stop
 
 > https://docs.spring.io/spring-boot/docs/2.5.2/maven-plugin/reference/htmlsingle/
 > https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html
+
+
+---n-plugin.html
 
 
 ---

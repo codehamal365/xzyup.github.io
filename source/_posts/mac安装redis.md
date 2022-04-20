@@ -1,8 +1,10 @@
 ---
+uuid: bbaed2e4-c0ab-11ec-92a1-7557b2313227
 title: mac安装redis
+categories: MiddleWare
 tags:
   - mac
-abbrlink: 3aca
+abbrlink: 983ced43
 date: 2022-04-10 17:34:00
 ---
 
@@ -70,3 +72,4 @@ redis-cli -h 127.0.0.1 -p 6379
 ## 注意
 
 使用`redis-server`默认是前台启动，如果想以后台方式运行，可以在`redis.conf`中将`daemonize no`改为`daemonize yes`。
+`daemonize yes`。

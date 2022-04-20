@@ -1,8 +1,10 @@
 ---
+uuid: bbaed2e2-c0ab-11ec-92a1-7557b2313227
 title: mac安装kafka
+categories: MiddleWare
 tags:
   - mac
-abbrlink: 65f6
+abbrlink: b8a54843
 date: 2022-04-10 16:19:02
 ---
 
@@ -100,4 +102,6 @@ HOMEBREW_BOTTLE_DOMAIN= brew reinstall kafka
 > 相关的解释，可以参考如下连接
 >
 > https://github.com/Homebrew/discussions/discussions/2530
+
+/discussions/2530
 

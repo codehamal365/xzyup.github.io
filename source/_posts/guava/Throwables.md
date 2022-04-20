@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2109-c0ab-11ec-92a1-7557b2313227
 title: Guava Throwables
+categories: Java
 tags:
   - guava
-abbrlink: c350
+abbrlink: 43913d08
 ---
 
 # Guava Throwables类
@@ -103,6 +105,10 @@ public class GuavaTester {
 }
 
 class InvalidInputException extends Exception {
+}
+```
+
+---eption {
 }
 ```
 

@@ -1,8 +1,10 @@
 ---
+uuid: bbaf210d-c0ab-11ec-92a1-7557b2313227
 title: chmod
+categories: Linux
 tags:
   - linux
-abbrlink: ae65
+abbrlink: e97af36
 ---
 
 chmod a+r *：用户自己使用此命令，柯给所有用户添加可读的权限
@@ -51,5 +53,7 @@ chmod ug=rwx,o=x file
 chmod 771 file 
 效果相同
 若用chmod 4755 filename可使此程序具有root的权限
+
+---root的权限
 
 ---

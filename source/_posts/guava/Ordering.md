@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2102-c0ab-11ec-92a1-7557b2313227
 title: Guava Ordering
+categories: Java
 tags:
   - guava
-abbrlink: '7702'
+abbrlink: acc53003
 ---
 
 # Guava Ordering类
@@ -133,6 +135,11 @@ public class GuavaTester {
 	  Collections.sort(names,ordering.nullsFirst().reverse());
       System.out.println("Null first then reverse sorted list: ");
       System.out.println(names);
+   }
+}
+```
+
+---s);
    }
 }
 ```

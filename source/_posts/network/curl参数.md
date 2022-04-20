@@ -1,8 +1,10 @@
 ---
+uuid: bbaf4815-c0ab-11ec-92a1-7557b2313227
 title: cur参数
+categories: Linux
 tags:
   - curl
-abbrlink: 6fcd
+abbrlink: 44f7453a
 ---
 
 # 简介
@@ -346,5 +348,7 @@ curl -X POST https://www.example.com
 ```
 
 上面命令对`https://www.example.com`发出 POST 请求。
+
+---POST 请求。
 
 ---

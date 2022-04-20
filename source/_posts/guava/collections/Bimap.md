@@ -1,8 +1,10 @@
 ---
+uuid: bbaf6f23-c0ab-11ec-92a1-7557b2313227
 title: Guava Bimap
 tags:
   - guava
-abbrlink: 8ed4
+categories: Java
+abbrlink: 872f7cc2
 ---
 
 # Guava Bimap接口
@@ -55,6 +57,11 @@ public class GuavaTester {
 
       //Emp Id of Employee "Mahesh"
       System.out.println(empIDNameMap.inverse().get("Mahesh"));
+   }	
+}
+```
+
+---);
    }	
 }
 ```

@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2103-c0ab-11ec-92a1-7557b2313227
 title: Guava Preconditions
+categories: Java
 tags:
   - guava
-abbrlink: 9f23
+abbrlink: 492d887f
 ---
 
 ## Preconditions
@@ -36,5 +38,7 @@ Preconditions主要提供了四类检查
 相关的用法比较简单，可自行查看源码后使用。
 
 不过这里所做的检查都抛的是基本异常类型，可能大多数不符合业务异常，所以使用可能不会太多。
+
+---��会太多。
 
 ---

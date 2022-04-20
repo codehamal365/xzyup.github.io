@@ -1,8 +1,10 @@
 ---
+uuid: bbaf4817-c0ab-11ec-92a1-7557b2313227
 title: springboot 加载自定义配置文件
+categories: Java
 tags:
   - springBoot
-abbrlink: f29f
+abbrlink: 4eeb76e3
 ---
 
 在`@ConfigurationProperties`一节中，我们知道了application.yaml中配置的属性会被绑定到该类的属性中，那么如果很多配置都写到application中，会导致配置很乱。同时，如果配置是从其他远程或者目录加载，application.yaml配置并不适合的适合，怎么去加载其他的配置文件呢。下面先讲以下两种方法，其实springboot应该也支持以其他profile的形式去剥离配置，但是目前以springboot-2.5.2这块还在研究中，后续如果可以，会补充上来。
@@ -309,6 +311,9 @@ public @interface PropertySource {
     - 通过environmentPostProcessor的资源文件如何动态设置呢
     - environmentPostProcessor的原理是啥，是怎么动态调用的
     - spring中resourceLoader有哪些，是怎么动态处理不同的资源的。`DefaultResourceLoader`是怎么做到的。
+
+
+---�做到的。
 
 
 ---

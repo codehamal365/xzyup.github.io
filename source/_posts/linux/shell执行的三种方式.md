@@ -1,9 +1,11 @@
 ---
+uuid: bbaf2110-c0ab-11ec-92a1-7557b2313227
 title: shell 脚本三种执行方式
+categories: Linux
 tags:
   - linux
   - shell
-abbrlink: 3f6c
+abbrlink: e96baa13
 ---
 
 # 执行shell脚本三种方法的区别：（sh、exec、source）
@@ -80,5 +82,7 @@ Type `help' to learn how to use Xshell prompt.
 **sh方式：父进程是6770，执行loop.sh时的子进程是13736。执行完毕后回到父进程shell。
  source方式：父进程和子进程都是6770（执行时没有新的进程），执行完毕会回到父进程shell。
  exec方式：进程PID没有改变都是6770，执行完毕（ctrl+C强制关闭）时直接退出了shell。脚本执行时替换了父进程的shell,执行完毕后直接退出，没有回到之前的shell。**
+
+---�的shell。**
 
 ---

@@ -1,8 +1,10 @@
 ---
+uuid: bbaef9fc-c0ab-11ec-92a1-7557b2313227
 title: Guava CharMatcher
+categories: Java
 tags:
   - guava
-abbrlink: 7f5b
+abbrlink: 383fc378
 ---
 
 CharMatcher提供了各种方法来处理各种JAVA char类型值。
@@ -167,6 +169,10 @@ void testCharMatcher() {
   assertEquals(3, CharMatcher.is('#').countIn("#hello#world#"));
   // 保留某些字符
   assertEquals("bc", CharMatcher.inRange('b', 'c').retainFrom("abcdefg"));
+}
+~~~
+
+---defg"));
 }
 ~~~
 

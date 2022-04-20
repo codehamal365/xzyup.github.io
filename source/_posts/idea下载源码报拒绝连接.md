@@ -1,7 +1,9 @@
 ---
+uuid: bbaed2e0-c0ab-11ec-92a1-7557b2313227
 title: idea下载源码报拒绝连接
+categories: IDE
 tags: idea
-abbrlink: 6fd1
+abbrlink: 4060ceab
 date: 2022-04-13 16:24:50
 ---
 
@@ -10,4 +12,6 @@ date: 2022-04-13 16:24:50
 `Preferences`->`Build`->`Build Tools`->`Maven`->`Importing`->`JDK for importer`做修改了在尝试。
 
 ![image-20220413163757010](https://raw.githubusercontent.com/xzyup/image/master/202204131637914.png)
+
+204131637914.png)
 

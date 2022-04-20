@@ -1,8 +1,10 @@
 ---
+uuid: bbaf2106-c0ab-11ec-92a1-7557b2313227
 title: Guava Splitter
+categories: Java
 tags:
   - guava
-abbrlink: d667
+abbrlink: 865138fd
 ---
 
 # Splitter常见用法
@@ -63,6 +65,10 @@ void testSplitterFixedLength() {
   assertEquals(4, list.size());
   assertEquals("aaaa", list.get(0));
   assertEquals("dddd", list.get(3));
+}
+~~~
+
+---get(3));
 }
 ~~~
 

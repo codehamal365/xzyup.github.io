@@ -1,8 +1,10 @@
 ---
+uuid: bbaf6f24-c0ab-11ec-92a1-7557b2313227
 title: Guava Multimap
+categories: Java
 tags:
   - guava
-abbrlink: fe0a
+abbrlink: 1eced4e5
 ---
 
 #  Guava Multimap类
@@ -114,6 +116,11 @@ public class GuavaTester {
       multimap.put("upper", "C");
       multimap.put("upper", "D");		
       return multimap;		
+   }
+}
+```
+
+---;		
    }
 }
 ```

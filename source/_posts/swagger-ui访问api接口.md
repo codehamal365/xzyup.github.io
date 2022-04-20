@@ -1,8 +1,10 @@
 ---
+uuid: bbaed2e8-c0ab-11ec-92a1-7557b2313227
 title: swagger-ui访问api接口
+categories: Tool
 tags:
   - swagger
-abbrlink: 346c
+abbrlink: 3f47fec0
 date: 2022-04-15 22:13:54
 ---
 
@@ -71,3 +73,4 @@ date: 2022-04-15 22:13:54
 关于docker的更多配置可以参考[配置](https://github.com/swagger-api/swagger-ui/blob/master/docs/usage/configuration.md#docker)。
 
 当然我们也可以对官方的镜像做定制来满足我们的各种需求。后面如果有时间，会写一篇文章。
+写一篇文章。
