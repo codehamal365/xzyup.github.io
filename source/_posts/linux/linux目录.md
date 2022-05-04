@@ -36,7 +36,3 @@ abbrlink: cccfdef8
   首先就要考虑root 的$PATH里是否已经包含了这些环境变量。
   可以查看PATH，如果是：PATH=$PATH:$HOME/bin则需要添加成如下：
   PATH=$PATH:$HOME/bin:/sbin:/usr/bin:/usr/sbin
-
----/bin:/usr/sbin
-
----

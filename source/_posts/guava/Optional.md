@@ -18,9 +18,7 @@ Optional用于包含非空对象的不可变对象。 Optional对象，用于不
 
 ```java
 @GwtCompatible(serializable=true)
-public abstract class Optional<T>
-   extends Object
-      implements Serializable
+public abstract class Optional<T> extends Object implements Serializable
 ```
 
 ## 类方法
@@ -45,7 +43,7 @@ public abstract class Optional<T>
 
 ## 继承的方法
 
-​	这个类继承了以下类的方法：
+这个类继承了以下类的方法：
 
 - java.lang.Object
 
@@ -89,10 +87,3 @@ public class GuavaTester {
    }	
 }
 ```
-
----2;
-   }	
-}
-```
-
----

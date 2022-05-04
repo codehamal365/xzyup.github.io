@@ -67,9 +67,3 @@ void testSplitterFixedLength() {
   assertEquals("dddd", list.get(3));
 }
 ~~~
-
----get(3));
-}
-~~~
-
----

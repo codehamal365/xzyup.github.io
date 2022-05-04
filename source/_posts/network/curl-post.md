@@ -183,7 +183,3 @@ curl -H 'Content-Type: text/xml' -d 'hello' https://google.com/msg
 ```
 
 This recipe sets the content type header to `text/xml`, which is the MIME type of XML. It then adds `<message>hello</message>` data to the request and POSTs it to `https://google.com/msg`. Sending XML data, JSON data, or any other text data is very similar. All you have to do is change the content type header to the correct MIME type so that the server and the application know what type of data it is.
-
----of data it is.
-
----

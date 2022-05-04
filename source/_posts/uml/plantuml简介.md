@@ -292,10 +292,3 @@ Person(personAlias, "Person", "这可以看作是组件(Component)")
 Rel(personAlias, containerAlias, "Label", "设置关联关系")
 @enduml
 ~~~
-
----
-�")
-@enduml
-~~~
-
----

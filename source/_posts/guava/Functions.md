@@ -23,7 +23,3 @@ abbrlink: 9a47c4e
 | 7    | static <E> Function<Object, E> constant(@Nullable E value)  返回常量值 |
 | 8    | static <T> Function<Object, T> forSupplier(Supplier<T> supplier) |
 
----
- supplier) |
-
----

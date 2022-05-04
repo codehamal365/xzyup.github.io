@@ -13,10 +13,9 @@ CharMatcher提供了各种方法来处理各种JAVA char类型值。
 
 以下是com.google.common.base.CharMatcher类的声明：
 
-```
+```java
 @GwtCompatible(emulated=true)
-public final class CharMatcher
-   extends Object
+public final class CharMatcher extends Object
 ```
 
 ## 字体
@@ -104,7 +103,7 @@ Intuitively, you can think of a `CharMatcher` as representing a particular class
 
 But the utility of a `CharMatcher` is in the *operations* it lets you perform on occurrences of the specified class of characters: trimming, collapsing, removing, retaining, and much more. An object of type `CharMatcher` represents notion 1: what constitutes a matching character? It then provides many operations answering notion 2: what to do with those matching characters? The result is that API complexity increases linearly for quadratically increasing flexibility and power. Yay!
 
-```
+```java
 String noControl = CharMatcher.javaIsoControl().removeFrom(string); // remove control characters
 String theDigits = CharMatcher.digit().retainFrom(string); // only the digits
 String spaced = CharMatcher.whitespace().trimAndCollapseFrom(string, ' ');
@@ -171,9 +170,3 @@ void testCharMatcher() {
   assertEquals("bc", CharMatcher.inRange('b', 'c').retainFrom("abcdefg"));
 }
 ~~~
-
----defg"));
-}
-~~~
-
----

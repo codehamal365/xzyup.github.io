@@ -88,10 +88,3 @@ java -Dthin.dryrun=true -Dthin.root=. -jar awesome-app.jar
 ### 小结
 
 利用`spring-boot-thin-launcher`可以给Spring Boot应用瘦身。其原理是记录app依赖的jar包，在首次运行时先下载依赖项并缓存到本地。
-
----
-
-��到本地。
-
----
-

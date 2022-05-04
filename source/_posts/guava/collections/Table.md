@@ -15,7 +15,7 @@ Table代表一个特殊的映射，其中两个键可以在组合的方式被指
 
 以下是 com.google.common.collect.Table<R，C，V> 接口的声明：
 
-```
+```java
 @GwtCompatible
 public interface Table<R,C,V>
 ```
@@ -110,10 +110,3 @@ public class GuavaTester {
    }	
 }
 ```
-
----		
-   }	
-}
-```
-
----

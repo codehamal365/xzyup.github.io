@@ -15,12 +15,12 @@ abbrlink: da2c766e
 引入依赖
 
 ```xml
- <dependency>
-            <groupId>com.google.auto.service</groupId>
-            <artifactId>auto-service</artifactId>
-            <version>1.0</version>
-            <optional>true</optional>
-        </dependency>
+<dependency>
+  <groupId>com.google.auto.service</groupId>
+  <artifactId>auto-service</artifactId>
+  <version>1.0</version>
+  <optional>true</optional>
+</dependency>
 ```
 
 ```java
@@ -126,10 +126,3 @@ public @interface AutoService {
 
 
 总的说来AutoService实现还是很简单的，利用Annotation Processor机制为各个SPI服务以及Annotation Processor生成META-INF/services文件下的服务文件，但是确实是理解Annotation Processor机制的比较好的入门方式。目前还没有涉及到代码的生成，接下来的章节就将看看如何在注解处理器中生成代码。
-
----
-
-成代码。
-
----
-

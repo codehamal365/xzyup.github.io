@@ -15,11 +15,9 @@ Ordering(排序)可以被看作是一个丰富的比较具有增强功能的链�
 
 以下是com.google.common.collect.Ordering<T>类的声明：
 
-```
+```java
 @GwtCompatible
-public abstract class Ordering<T>
-   extends Object
-      implements Comparator<T>
+public abstract class Ordering<T> extends Object implements Comparator<T>
 ```
 
 ## 	类方法
@@ -61,13 +59,13 @@ public abstract class Ordering<T>
 
 ## 	方法继承
 
-​	这个类从以下类继承的方法：
+这个类从以下类继承的方法：
 
 - java.lang.Object
 
 ## 	Ordering 示例
 
-​	使用所选择的编辑器，创建下面的java程序比如 C:/> Guava
+使用所选择的编辑器，创建下面的java程序比如 C:/> Guava
 
 GuavaTester.java
 
@@ -138,10 +136,3 @@ public class GuavaTester {
    }
 }
 ```
-
----s);
-   }
-}
-```
-
----

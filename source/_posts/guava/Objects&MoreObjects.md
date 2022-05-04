@@ -15,7 +15,7 @@ abbrlink: 4bcb4612
 
 When your object fields can be `null`, implementing `Object.equals` can be a pain, because you have to check separately for `null`. Using [`Objects.equal`](https://guava.dev/releases/snapshot/api/docs/com/google/common/base/Objects.html#equal-java.lang.Object-java.lang.Object-) lets you perform `equals` checks in a null-sensitive way, without risking a `NullPointerException`.
 
-```
+```java
 Objects.equal("a", "a"); // returns true
 Objects.equal(null, "a"); // returns false
 Objects.equal("a", null); // returns false
@@ -36,7 +36,7 @@ Hashing all the fields of an `Object` should be simpler. Guava's [`Objects.hashC
 
 A good `toString` method can be invaluable in debugging, but is a pain to write. Use [`MoreObjects.toStringHelper()`](https://guava.dev/releases/snapshot/api/docs/com/google/common/base/MoreObjects.html#toStringHelper-java.lang.Object-) to easily create a useful `toString`. Some simple examples include:
 
-```
+```java
    // Returns "ClassName{x=1}"
    MoreObjects.toStringHelper(this)
        .add("x", 1)
@@ -52,7 +52,7 @@ A good `toString` method can be invaluable in debugging, but is a pain to write.
 
 Implementing a `Comparator`, or implementing the `Comparable` interface directly, can be a pain. Consider:
 
-```
+```java
 class Person implements Comparable<Person> {
   private String lastName;
   private String firstName;
@@ -78,7 +78,7 @@ For this purpose, Guava provides [`ComparisonChain`](https://guava.dev/releases/
 
 `ComparisonChain` performs a "lazy" comparison: it only performs comparisons until it finds a nonzero result, after which it ignores further input.
 
-```
+```java
    public int compareTo(Foo that) {
      return ComparisonChain.start()
          .compare(this.aString, that.aString)
@@ -89,7 +89,3 @@ For this purpose, Guava provides [`ComparisonChain`](https://guava.dev/releases/
 ```
 
 This fluent idiom is much more readable, less prone to accidental typos, and smart enough not to do more work than it must. Additional comparison utilities can be found in Guava's "fluent Comparator" class [`Ordering`](https://guava.dev/releases/snapshot/api/docs/com/google/common/collect/Ordering.html), explained [here](https://github.com/google/guava/wiki/OrderingExplained).
-
----ingExplained).
-
----

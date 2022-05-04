@@ -53,7 +53,3 @@ chmod ug=rwx,o=x file
 chmod 771 file 
 效果相同
 若用chmod 4755 filename可使此程序具有root的权限
-
----root的权限
-
----

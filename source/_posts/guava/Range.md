@@ -13,11 +13,9 @@ Range 表示一个间隔或一个序列。它被用于获取一组数字/串在�
 
 以下是com.google.common.collect.Range<C>类的声明：
 
-```
+```java
 @GwtCompatible
-public final class Range<C extends Comparable>
-   extends Object
-      implements Predicate<C>, Serializable
+public final class Range<C extends Comparable> extends Object implements Predicate<C>, Serializable
 ```
 
 ## 方法
@@ -128,10 +126,3 @@ public class GuavaTester {
    }
 }
 ```
-
----");
-   }
-}
-```
-
----

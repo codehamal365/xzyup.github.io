@@ -110,7 +110,3 @@ In this recipe, we add an empty header to a curl request. We pass `Puppies;` (wi
 curl -s --request POST 'https://$DOMAIN/auth/realms/main/protocol/openid-connect/token' --header 'Content-Type: application/x-www-form-urlencoded' --data-urlencode 'grant_type=client_credentials' --data-urlencode 'client_id=test' | jq -r .access_token)
 ~~~
 
----ess_token)
-~~~
-
----

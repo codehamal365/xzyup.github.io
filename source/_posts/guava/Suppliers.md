@@ -17,7 +17,3 @@ abbrlink: e620e81e
 | 4    | static <T> Supplier<T> ofInstance(@Nullable T instance)      |
 | 5    | static <T> Supplier<T> synchronizedSupplier(Supplier<T> delegate) |
 | 6    | static <T> Function<Supplier<T>, T> supplierFunction()       |
-
----tion()       |
-
----

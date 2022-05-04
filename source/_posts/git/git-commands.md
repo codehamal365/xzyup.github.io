@@ -312,18 +312,3 @@ $ git stash pop
 $ git archive
 ~~~
 
----
-
-
-
-
-
-hive
-~~~
-
----
-
-
-
-
-

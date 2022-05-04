@@ -72,9 +72,3 @@ void testJoinerAppender() {
   assertSame(builder, join);
 }
 ~~~
-
----, join);
-}
-~~~
-
----

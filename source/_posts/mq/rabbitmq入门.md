@@ -1317,7 +1317,3 @@ Correlation id 关联标识，客户端可能会发送多个请求给服务器�
 消息持久化
 ![img](https://raw.githubusercontent.com/xzyup/image/master/202203191632365.png)
 
----
-91632365.png)
-
----

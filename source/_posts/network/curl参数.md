@@ -348,7 +348,3 @@ curl -X POST https://www.example.com
 ```
 
 上面命令对`https://www.example.com`发出 POST 请求。
-
----POST 请求。
-
----

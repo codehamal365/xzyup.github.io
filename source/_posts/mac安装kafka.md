@@ -336,4 +336,4 @@ redis-cli -h 127.0.0.1 -p 6379
 ### 注意事项
 
 使用`redis-server`默认是前台启动，如果想以后台方式运行，可以在`redis.conf`中将`daemonize no`改为`daemonize yes`。
-`daemonize yes`。
+

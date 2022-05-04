@@ -260,9 +260,3 @@ integration-test阶段中的Spring Boot Maven plugin的start/stop
 
 > https://docs.spring.io/spring-boot/docs/2.5.2/maven-plugin/reference/htmlsingle/
 > https://docs.spring.io/spring-boot/docs/current/reference/html/build-tool-plugins-maven-plugin.html
-
-
----n-plugin.html
-
-
----

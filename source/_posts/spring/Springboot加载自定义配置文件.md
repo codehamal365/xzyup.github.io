@@ -311,9 +311,3 @@ public @interface PropertySource {
     - 通过environmentPostProcessor的资源文件如何动态设置呢
     - environmentPostProcessor的原理是啥，是怎么动态调用的
     - spring中resourceLoader有哪些，是怎么动态处理不同的资源的。`DefaultResourceLoader`是怎么做到的。
-
-
----�做到的。
-
-
----

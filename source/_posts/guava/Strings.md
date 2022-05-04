@@ -24,7 +24,3 @@ abbrlink: 4d4be014
 | 7    | public static String commonPrefix(CharSequence a, CharSequence b) |
 | 8    | public static String commonSuffix(CharSequence a, CharSequence b) |
 | 9    | public static String lenientFormat(@Nullable String template, @Nullable Object @Nullable ... args) |
-
----le ... args) |
-
----

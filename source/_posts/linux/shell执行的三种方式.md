@@ -80,9 +80,6 @@ Type `help' to learn how to use Xshell prompt.
 #### 结论：
 
 **sh方式：父进程是6770，执行loop.sh时的子进程是13736。执行完毕后回到父进程shell。
- source方式：父进程和子进程都是6770（执行时没有新的进程），执行完毕会回到父进程shell。
- exec方式：进程PID没有改变都是6770，执行完毕（ctrl+C强制关闭）时直接退出了shell。脚本执行时替换了父进程的shell,执行完毕后直接退出，没有回到之前的shell。**
+source方式：父进程和子进程都是6770（执行时没有新的进程），执行完毕会回到父进程shell。
+exec方式：进程PID没有改变都是6770，执行完毕（ctrl+C强制关闭）时直接退出了shell。脚本执行时替换了父进程的shell,执行完毕后直接退出，没有回到之前的shell。**
 
----�的shell。**
-
----

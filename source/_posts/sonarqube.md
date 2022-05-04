@@ -61,5 +61,5 @@ abbrlink: '1646358'
 
    - sonarqube与jenkins集合
    - Sonarqube max 开机自启动设置
-   - Sonar.scanner 相关配置学习
- 相关配置学习
+   - Sonar.scanner 相关配置
+

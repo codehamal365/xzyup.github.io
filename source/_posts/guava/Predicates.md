@@ -28,7 +28,3 @@ abbrlink: 447154f8
 | 15   | public static <A, B> Predicate<A> compose(Predicate<B> predicate, Function<A, ? extends B> function) |
 | 16   | public static Predicate<CharSequence> containsPattern(String pattern) |
 | 17   | public static Predicate<CharSequence> contains(Pattern pattern) |
-
----ern pattern) |
-
----

@@ -40,8 +40,3 @@ System.out.println(CaseFormat.LOWER_UNDERSCORE.to(CaseFormat.UPPER_CAMEL, "test_
 // TEST_WORLD
 System.out.println(CaseFormat.LOWER_UNDERSCORE.to(CaseFormat.UPPER_UNDERSCORE, "test_world"));
 ```
-
----_world"));
-```
-
----
