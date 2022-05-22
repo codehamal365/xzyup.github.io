@@ -1,6 +1,6 @@
 ---
 uuid: bbaf4815-c0ab-11ec-92a1-7557b2313227
-title: cur参数
+title: cur使用介绍
 categories: Linux
 tags:
   - curl

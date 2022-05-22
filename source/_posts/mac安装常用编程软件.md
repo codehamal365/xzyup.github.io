@@ -1,6 +1,6 @@
 ---
 uuid: bbaed2e2-c0ab-11ec-92a1-7557b2313227
-title: mac安装常用软件
+title: mac安装常用编程软件
 categories: MiddleWare
 tags:
   - mac
